@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  background-color: #FFE495;
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  color: #FFA8B8
 }
 
 .inputSection {
@@ -22,11 +24,27 @@ width: 400px;
   width: inherit;
   display: flex;
   flex-direction: column;
+  color: #FFA8B8;
 }
 
 input {
   margin-top: : 10px;
+  color: #FFA8B8;
 }
+
 .addOption {
   margin-top: 10px;
+  background-color: #F03861;
+  color: #FFA8B8;
+  border-color: #FFA8B8;
+  border-radius: 4px;
+}
+
+.searchButton {
+  background-color: #F03861;
+  color: #FFA8B8;
+  font-size: 20px;
+  border-color: #FFA8B8;
+  padding: 10px 30px;
+  border-radius: 25%;
 }
