@@ -5,14 +5,15 @@
   <title>Help me choose</title>
   <link href="./main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <h1>Help me choose between...</h1>
+  <h1>Help Me Choose Between...</h1>
+
   <img src="https://i.imgflip.com/169lld.jpg" />
     <div class="inputSection">
-      <br>
     </br>
     <div class="inputs">
-      <input placeholder="Something"</input>
+      <input placeholder="Type here..."</input>
     </div>
     <button class="addOption">Add</button>
   </div>
@@ -21,13 +22,18 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script>
-    $(function() {
-      $('.resultSection').hide()
-      var add_option = function() {
-        $('.inputs').append('<input></input>')
-      }
-      $('.addOption').click(add_option)
-    })
+  $(function() {
+    $('.resultSection').hide()
+
+    var add_option = function() {
+
+      $('.inputs').append('<input></input>')
+    }
+
+    $('.addOption').click(add_option)
+
+  })
+
   </script>
 </body>
 </html>
