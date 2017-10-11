@@ -37,10 +37,10 @@ input {
   background-color: #900C3F;
   color: #FFA8B8;
   border-color: #FFA8B8;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
-.searchButton {
+.goButton {
   background-color: #900C3F;
   color: #FFA8B8;
   font-size: 20px;
