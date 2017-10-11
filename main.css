@@ -36,6 +36,7 @@ input {
   margin-top: 10px;
   background-color: #900C3F;
   color: #FFA8B8;
+  font-weight: bold;
   border-color: #FFA8B8;
   border-radius: 8px;
 }
@@ -43,6 +44,7 @@ input {
 .goButton {
   background-color: #900C3F;
   color: #FFA8B8;
+  font-weight: bold;
   font-size: 20px;
   border-color: #FFA8B8;
   padding: 10px 30px;
